@@ -5,4 +5,5 @@
   <document file=".\entitlements.yxmd" />
   <document file=".\reference_cats.yxmd" />
   <document file=".\reference_cat.yxmd" />
+  <document file=".\id_resolution.yxmd" />
 </documents>
