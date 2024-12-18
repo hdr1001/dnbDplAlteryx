@@ -10,16 +10,12 @@
           <NumRows value="1" />
           <Fields>
             <Field name="path" />
-            <Field name="blockIDs" />
             <Field name="duns" />
-            <Field name="orderReason" />
           </Fields>
           <Data>
             <r>
-              <c>/v1/data/duns/</c>
-              <c>companyinfo_L2_v1,hierarchyconnections_L1_v1</c>
+              <c>/v1/familyTree/</c>
               <c>489478007</c>
-              <c>6332</c>
             </r>
           </Data>
         </Configuration>
@@ -48,9 +44,7 @@
             <Fields orderChanged="False">
               <Field name="Authorization" />
               <Field name="path" selected="False" />
-              <Field name="blockIDs" selected="False" />
               <Field name="duns" selected="False" />
-              <Field name="orderReason" selected="False" />
               <Field name="*Unknown" selected="False" />
             </Fields>
           </Headers>
@@ -59,8 +53,6 @@
             <QueryStringBodyMode>Compose</QueryStringBodyMode>
             <ComposeNameValues />
             <ComposeFields orderChanged="False">
-              <Field name="blockIDs" />
-              <Field name="orderReason" />
               <Field name="path" selected="False" />
               <Field name="duns" selected="False" />
               <Field name="Authorization" selected="False" />
@@ -156,7 +148,7 @@ path = ToString(...</DefaultAnnotationText>
     <IsTemplate value="False" />
     <MetaInfo>
       <NameIsFileName value="True" />
-      <Name>data_blocks</Name>
+      <Name>full_fam_tree</Name>
       <Description />
       <RootToolName />
       <ToolVersion />
@@ -171,9 +163,9 @@ path = ToString(...</DefaultAnnotationText>
         <Description />
         <File />
       </Example>
-      <WorkflowId value="6d51edc2-a03f-449d-9559-4d5634092d2a" />
+      <WorkflowId value="98223b4f-a073-4c65-9d2d-d69a4c62be44" />
       <Telemetry>
-        <PreviousWorkflowId value="ea3454c0-ec92-4275-8a45-6fe54225fea7" />
+        <PreviousWorkflowId value="6d51edc2-a03f-449d-9559-4d5634092d2a" />
         <OriginWorkflowId value="ea016365-e78f-4b2d-a8f5-234af7070fa1" />
       </Telemetry>
       <PlatformWorkflowId value="" />
